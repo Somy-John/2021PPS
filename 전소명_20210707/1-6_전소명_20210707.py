@@ -6,8 +6,7 @@ def generate(numRows):
         else:
             tmp = [1]
             for j in range(len(rst[-1])-1): tmp.append(rst[-1][j]+rst[-1][j+1])
-            tmp.append(1)
-            rst.append(tmp)
+            rst.append(tmp+[1])
     return rst
 
 print(generate(1))
