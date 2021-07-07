@@ -4,7 +4,7 @@ rst = []
 for i in range(len(testCase)):
     score, tmp = 0,0
     for j in testCase[i]:
-        if j == "O": 
+        if j == "O":
             tmp+=1
             score += tmp
         else: 
