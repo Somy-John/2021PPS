@@ -1,0 +1,6 @@
+num = input()
+# print(int(i:=num)*2)
+# print(bin(int(i:=num)*2))
+# print(bin(int(i:=num)*2)[3:])
+# print(int(bin(int(i:=num)*2)[3:],2))
+print(int(bin(int(i:=num)*2)[3:],2) or i)
