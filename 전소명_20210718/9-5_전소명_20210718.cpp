@@ -113,6 +113,3 @@ int main(void)
  
     return 0;
 }
-
-
-출처: https://yabmoons.tistory.com/55 [얍문's Coding World..]
